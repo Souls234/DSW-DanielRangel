@@ -1,0 +1,171 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+	background: #ffffff;
+}
+
+img{
+	width: 6%;
+	border-radius: 10%;
+}
+
+header nav{
+	display: flex;
+	justify-content: space-around;
+}
+
+header{
+	width: 100%;
+}
+
+.navegacion{
+	width: 1440px;
+	margin: 0px auto;
+	background: rgb(0, 174, 255);
+}
+
+.navegacion ul{
+	list-style: none;
+}
+
+.header nav ul{
+	display: flex;
+	justify-content: space-around;
+}
+
+.menu > li{
+	position: relative;
+	display: inline-block;
+}
+
+.menu > li > a{
+	display: block;
+	padding: 10px 50px;
+	color: #353535;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li a:hover{
+	color: #000000;
+	transition: all .2s;
+}
+
+/*submenu1*/
+
+.submenu1{
+	position: absolute;
+	background: rgb(0, 174, 255);
+	width: 90%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+
+.submenu1 li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li:hover .submenu1{
+	visibility: visible;
+	opacity: 1;
+}
+
+
+/* Submenu2*/
+
+.submenu2{
+	position: absolute;
+	background: rgb(0, 174, 255);
+	width: 90%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+
+.submenu2 li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li:hover .submenu2{
+	visibility: visible;
+	opacity: 1;
+}
+
+/*submenu3*/
+
+.submenu3{
+	position: absolute;
+	background: rgb(0, 174, 255);
+	width: 100%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+
+.submenu3 li a{
+	display: block;
+	padding: 6%;
+	color: #fff;
+	font-family: 'open sans';
+	text-decoration: none;
+}
+
+.menu li:hover .submenu3{
+	visibility: visible;
+	opacity: 1;
+}
+
+/*submenu4*/
+
+.submenu4{
+	position: absolute;
+	background: rgb(0, 174, 255);
+	width: 100%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+
+.submenu4 li a{
+	display: block;
+	padding: 6%;
+	color: #fff;
+	font-family: 'open sans';
+	text-decoration: none;
+}
+
+.menu li:hover .submenu4{
+	visibility: visible;
+	opacity: 1;
+}
+
+.flexbox {
+	align-items: center;
+	display: flex;
+	height: 100px;
+	justify-content: center;
+	width: 250px;
+  }
+
+.imagen2  {
+	width: 500%;
+}
+
+.imagen3{
+ width: 500%;
+}
