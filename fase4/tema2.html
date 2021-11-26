@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etiquetas Básicas de HTML, atributos y valores</title>
+    <link rel="stylesheet" href="estilos2.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <header class="container-fluid bg-info">
+
+        <div class="imagen"><img src="img/imgen1.png" alt="asd asd" width="55%"></div>
+
+        <div class="titulo">
+            <h1>Etiquetas Básicas de HTML, atributos y valores</h1>
+        </div>
+
+    </header>
+
+    <div class="row-container-fluid">
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+            <div class="container-fluid">
+
+                <div class="col-2"><a class="navbar-brand" href="index.html"><b class="Inicio"> INICIO</b></a></div>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                        <div class="col-md-6">
+
+                            <li class="nav-item dropdown navbar-brand">
+                                <a class="nav-link dropdown-toggle" aria-current="page" href="#" id="navbardropdown"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false"><b
+                                        class="Temas">Temas</b>
+                                </a>
+
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                                    <li><a class="dropdown-item" href="tema1.html"><b> Tema 1</b></a></li>
+
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+
+                                    <li><a class="dropdown-item" href="tema2.html"><b> Tema 2</b></a></li>
+
+                                </ul>
+
+                            </li>
+
+                        </div>
+
+                        <div class="col-md-8">
+                            <li class="nav-item dropdown navbar-brand">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false"><b
+                                        class="Recursosdigitales">Recursos digitales</b>
+                                </a>
+
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                                    <li><a class="dropdown-item" href="rdigital1.html"><b> R.digital 1</b></a></li>
+
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+
+                                    <li><a class="dropdown-item" href="rdigital2.html"><b> R.digital 2</b></a></li>
+
+                                </ul>
+                            </li>
+                        </div>
+
+                        <div class="col-md-8">
+
+                            <li class="nav-item dropdown navbar-brand">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <b class="Aprendisaje">Aprendisaje</b>
+                                </a>
+
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                                    <li><a class="dropdown-item" href="aprender1.html"><b> Aprender 1</b></a></li>
+
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+
+                                    <li><a class="dropdown-item" href="aprender2.html"><b> Aprender 2</b></a></li>
+
+                                </ul>
+
+                            </li>
+
+                        </div>
+
+                        <li class="nav-item dropdown navbar-brand">
+                            <a class="nav-link dropdown" href="autor.html" id="navbarDropdown" role="button"
+                                 aria-expanded="false"><b class="Autor">Autor</b></a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </div>
+
+    <main class="container-fluid">
+        <div class="row">
+          
+            <section class="container-fluid">
+                <h2>Qué son los atributos en HTML</h2>
+                <br>
+                <p>
+                    os atributos en HTML se pueden considerar como información adicional que se coloca siempre en la etiqueta de apertura, esto para añadir, complementar información o significado al elemento HTML al que estamos colocando.
+                    Los atributos HTML van siempre dentro de la etiqueta de apertura y sirven para modificar o agregar alguna característica al contenido.
+                    <br>
+                    <br>
+                    <h2>Lista de los atributos más usados en HTML</h2>
+                    <br>
+                    <p>Id =” ”: Para identificar un elemento único.
+                        <br>
+                        class =” ”: Identificador múltiple.
+                        <br>
+                        align =” ”: Alineación de contenido.
+                        <br>
+                        border =” ”: Para darle borde al contenido.
+                        <br>
+                        style =” ”: Para darle un estilo al contenido.
+                        <br>
+                        background-color =” ”: Para color de fondo.
+                        <br>
+                        href =” ”: Para enlaces html.
+                        <br>
+                        height =” ”: Para determinar altura.
+                        <br>
+                        width =” ”: Para determinar ancho.
+                        <br>
+                        src=“ ”: Para imágenes.</p>
+                </p>
+                <br>
+                <h2>Cómo colocar atributos en HTML</h2>
+                <br>
+                <p>Un atributo se escribe de la siguiente manera: Atributo=“valor”  en esa forma, el nombre del atributo, seguido del signo igual (=) y entre comillas el valor, todo esto siempre dentro de la etiqueta de apertura.
+    
+                    Por lo tanto el atributo escrito en una etiqueta (por ejemplo párrafo) se ve así: < p atributo="valor" >Este es un párrafo < /p >
+                </p>
+                <br>
+                <center>
+                    <div class="img7">
+                        <img src="img/img7.jpg" alt="">
+                    </div>
+                </center>
+                <br>
+                <br>
+                <h2>Valor de un atributo</h2>
+                <br>
+                <p>Cuando se hace uso de un atributo HTML se debe especificar su valor, este puede representar una cantidad exacta, característica especifica o simplemente en que medida se ejecutará dicho atributo.
+    
+                    El valor se expresa entre comillas después del signo de (=), de acuerdo al atributo, pueden haber una variedad de valores disponibles. Por ejemplo, en caso dealign puede tomar el valor de center (centro), right (derecha), left (izquierda), justify (justificado).
+                </p>
+                <br>
+                <h2>Atributos HTML y sus valores</h2>
+                <br>
+                <h4>Atributo: valores</h4>
+                <br>
+                <p>Id.- su valor puede ser cualquier palabra que sirve para identificar un elemento.
+                    <br>
+                    align.- alineación, sus valores pueden ser: center, right, left, justify.
+                    <br>
+                    border-style.- estilo de borde, los valores disponibles son: solid, dotted, dashed, double, etc.
+                    <br>
+                    bgcolor.- Para color de fondo para ciertos elementos como body, el valor puede ser cualquier color en formato palabra, hexadecimal, RGB, etc. ejemplo: red, green, #ff0000, etc.
+                    <br>
+                    href .- para enlaces su valor puede ser la dirección de un carpeta o URL.
+                    <br>
+                    height .- para definir altura, su valor puede ser una medida con su unidad de medida, por ejemplo: 10px, 12em, 100%.
+                    <br>
+                    width.- define el ancho y su valor puede ser cualquier medida con su respectiva unidad de medida.
+                    <br>
+                    <br>
+                    Y así, existen muchísimos atributos que podemos aplicar a cualquier etiqueta HTML.
+                    <br>
+                    <br>
+                    <b>Ejemplos</b>
+                    <br>
+                    <br>
+                    <center>
+                        <div class="img8">
+                            <img src="img/img8.jpg" alt="">
+                        </div>
+                        <br>
+                        <div class="img9">
+                            <img src="img/img9.jpg" alt="">
+                        </div>
+                    </center>
+                </p>
+                <br>
+                <br>
+                <h2>El atributo style</h2>
+                <br>
+                <p>El atributo style sirve para agregar estilo a los elementos HTML, la apariencia de los elementos que conocimos hasta ahora y los que aprenderemos en lecciones posteriores pueden ser controlados mediante una enorme variedad propiedades y valores.
+                </p>
+                <br>
+                <h4>Aplicando Style</h4>
+                <br>
+                <p>El atributo style se declara como cualquier otro atributo HTML, su valor puede contener varias declaraciones de estilo separadas por espacio y eso lo hace diferente a otros atributos.
+    
+                    A grandes rasgos, una declaración consiste en una propiedad y su respectivo valor, una declaración siempre tiene la siguiente forma: propiedad: valor; primero se escribe la propiedad seguido de dos puntos para definir su valor y finamente se cierra con un punto y coma (;)
+                </p>
+                <br>
+                <br>
+                <b>Ejemplo</b>
+                <br>
+                <br>
+                <center>
+                    <div class="img10">
+                        <img src="img/img10.jpg" alt="">
+                    </div>
+                    <br>
+                    <div class="img11">
+                        <img src="img/img11.jpg" alt="">
+                    </div>
+                </center>
+            </section>
+
+            <aside class="aside">
+
+                <iframe class="container-fluid"
+                    src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Ffacebook.com%2FUniversidadUNAD%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+                    width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                    allowfullscreen="true"
+                    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+
+            </aside>
+
+        </div>
+
+    </main>
+
+    <footer class="piedepagina">
+
+        <h2>bibliografia</h2>
+        <p><h3>descripciones e imagenes recueprado de la pagina desarrolladoresweb.org</h3></p>
+        <div class="link">
+            <a href="https://desarrolladoresweb.org/html/atributos-html/" target="_blank">Link de la pagina</a>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
